@@ -28,6 +28,7 @@ impl<T> Buffer<T> {
 }
 
 // Exercise 2
+// 根据ppt中函数名要求不修改此处
 fn compareString(x: &str, y: &str) -> bool {
     let chars1 = x.chars().collect::<Vec<_>>();
     let chars2 = y.chars().collect::<Vec<_>>();
